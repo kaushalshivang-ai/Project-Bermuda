@@ -6,7 +6,7 @@ This project was developed as the Bring Your Own Project (BYOP) component for th
 
 ---
 
-## 🧠 Core AI Concepts & Syllabus Application
+## 🧠 Core AI Concepts 
 
 This system is architected to explicitly demonstrate the foundational theories of Artificial Intelligence:
 
