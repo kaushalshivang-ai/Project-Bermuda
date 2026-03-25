@@ -51,17 +51,20 @@ The system is strictly executed via the command line, requiring zero GUI.
 
 ### Scenario 1: Unobstructed Routing
 Calculates the fastest route from drop point to destination.
-\`\`\`bash
+```bash
 python tactical_route.py --start "Clock Tower" --end "Peak"
-\`\`\`
+```
+
+---
+
 **Expected Terminal Output:**
-\`\`\`text
+```text
 [>] Calculating optimal route from 'Clock Tower' to 'Peak'...
 
 [+] ROUTE SECURED!
     Path:     Clock Tower -> Bimasakti Strip -> Peak
     Distance: 450 units
-\`\`\`
+```
 
 ### Scenario 2: Adversarial Avoidance (Dynamic Execution)
 Forces the AI to abandon its preferred central route by blocking 'Clock Tower' and 'Factory' with dynamic constraints, triggering a massive detour calculation.
