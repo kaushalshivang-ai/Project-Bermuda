@@ -57,13 +57,12 @@ Calculates the fastest route from drop point to destination.
 python tactical_route.py --start "Clock Tower" --end "Peak"
 
 **Expected Terminal Output:**
-\`\`\`text
+
 [>] Calculating optimal route from 'Clock Tower' to 'Peak'...
 
 [+] ROUTE SECURED!
     Path:     Clock Tower -> Bimasakti Strip -> Peak
     Distance: 450 units
-\`\`\`
 
 ### Scenario 2: Adversarial Avoidance (Dynamic Execution)
 Forces the AI to abandon its preferred central route by blocking 'Clock Tower' and 'Factory' with dynamic constraints, triggering a massive detour calculation.
@@ -71,7 +70,7 @@ Forces the AI to abandon its preferred central route by blocking 'Clock Tower' a
 python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock Tower" --red_zone "Factory"
 \`\`\`
 **Expected Terminal Output:**
-\`\`\`text
+
 [!] ENEMY PRESENCE: Routing around Clock Tower
 [!] RED ZONE ACTIVE: Routing around Factory
 
@@ -80,7 +79,6 @@ python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock T
 [+] ROUTE SECURED!
     Path:     Rim Nam Village -> Hangar -> Observatory -> Graveyard -> Katulistiwa -> Bimasakti Strip -> Peak
     Distance: 1350 units
-\`\`\`
 
 ---
 
