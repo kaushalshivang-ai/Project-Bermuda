@@ -68,11 +68,14 @@ python tactical_route.py --start "Clock Tower" --end "Peak"
 
 ### Scenario 2: Adversarial Avoidance (Dynamic Execution)
 Forces the AI to abandon its preferred central route by blocking 'Clock Tower' and 'Factory' with dynamic constraints, triggering a massive detour calculation.
-\`\`\`bash
+```bash
 python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock Tower" --red_zone "Factory"
-\`\`\`
+```
+
+---
+
 **Expected Terminal Output:**
-\`\`\`text
+```text
 [!] ENEMY PRESENCE: Routing around Clock Tower
 [!] RED ZONE ACTIVE: Routing around Factory
 
@@ -81,7 +84,7 @@ python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock T
 [+] ROUTE SECURED!
     Path:     Rim Nam Village -> Hangar -> Observatory -> Graveyard -> Katulistiwa -> Bimasakti Strip -> Peak
     Distance: 1350 units
-\`\`\`
+```
 
 ---
 
