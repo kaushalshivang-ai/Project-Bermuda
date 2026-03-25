@@ -34,14 +34,14 @@ The project adheres to strict Separation of Concerns (SoC) for high code quality
 
 **1. Clone the Environment**
 ```bash
-git clone https://github.com/your-username/tactical-pathfinder.git
-cd tactical-pathfinder
+git clone https://github.com/kaushalshivang-ai/Project-Bermuda
+cd Project-Bermuda
 ```
 
 **2. Install the Bridge Interface**
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
