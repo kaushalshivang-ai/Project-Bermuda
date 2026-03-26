@@ -17,6 +17,7 @@ connected('Observatory', 'Hangar', 250).
 connected('Hangar', 'Clock Tower', 200).
 connected('Hangar', 'Rim Nam Village', 300).
 connected('Rim Nam Village', 'Clock Tower', 350).
+connected('Rim Nam Village', 'Factory', 300).
 
 % --- Central Sector ---
 connected('Katulistiwa', 'Bimasakti Strip', 150).
@@ -29,6 +30,7 @@ connected('Peak', 'Pochinok', 200).
 connected('Peak', 'Kota Tua', 250).
 connected('Peak', 'Riverside', 200).
 connected('Peak', 'Plantation', 250).
+connected('Clock Tower', 'Peak', 150).
 
 % --- Eastern Sector ---
 connected('Riverside', 'Mill', 150).
