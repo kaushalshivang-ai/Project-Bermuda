@@ -62,8 +62,8 @@ python tactical_route.py --start "Clock Tower" --end "Peak"
 [>] Calculating optimal route from 'Clock Tower' to 'Peak'...
 
 [+] ROUTE SECURED!
-    Path:     Clock Tower -> Bimasakti Strip -> Peak
-    Distance: 450 units
+    Path:     Clock Tower -> Peak
+    Distance: 150 units
 ```
 
 ### Scenario 2: Adversarial Avoidance (Dynamic Execution)
@@ -76,14 +76,14 @@ python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock T
 
 **Expected Terminal Output:**
 ```text
-[!] ENEMY PRESENCE: Routing around Clock Tower
 [!] RED ZONE ACTIVE: Routing around Factory
+[!] ENEMY PRESENCE: Routing around Clock Tower
 
 [>] Calculating optimal route from 'Rim Nam Village' to 'Peak'...
 
 [+] ROUTE SECURED!
-    Path:     Rim Nam Village -> Hangar -> Observatory -> Graveyard -> Katulistiwa -> Bimasakti Strip -> Peak
-    Distance: 1350 units
+    Path:     Rim Nam Village -> Hangar -> Katulistiwa -> Bimasakti Strip -> Peak
+    Distance: 825 units
 ```
 
 ---
