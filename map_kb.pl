@@ -6,8 +6,8 @@
 % --- Northern Sector ---
 connected('Shipyard', 'Bullseye', 150).
 connected('Shipyard', 'Mill', 300).
-connected('Shipyard', 'Plantation', 200).
-connected('Shipyard', 'Riverside', 250).
+connected('Shipyard', 'Plantation', 250).
+connected('Shipyard', 'Riverside', 200).
 connected('Bullseye', 'Graveyard', 50).
 connected('Graveyard', 'Observatory', 150).
 connected('Graveyard', 'Katulistiwa', 200).
