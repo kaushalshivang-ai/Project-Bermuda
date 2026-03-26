@@ -32,6 +32,7 @@ connected('Peak', 'Pochinok', 200).
 connected('Peak', 'Kota Tua', 250).
 connected('Peak', 'Riverside', 200).
 connected('Clock Tower', 'Peak', 150).
+connected('Katulistiwa', 'Plantation', 200).
 
 % --- Eastern Sector ---
 connected('Riverside', 'Mill', 150).
