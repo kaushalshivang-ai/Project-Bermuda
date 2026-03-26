@@ -12,12 +12,16 @@ This project was specifically architected to demonstrate core concepts from the 
 * **Intelligent Agents & Search Strategies:** The system functions as a problem-solving agent. To ensure the absolute shortest path is found rather than just *any* path, the project utilizes an exhaustive Depth-First Search (DFS) implementation. The algorithm traverses the state space, calculates the total distance weight of every valid route, and optimizes the output by returning the path with the minimum distance cost.
 * **Knowledge Representation & Logic:** Instead of using traditional graph data structures in Python, the environment is strictly modeled using **First-Order Predicate Logic** via SWI-Prolog. The map is defined through immutable `facts` (nodes and edges), while movement constraints and adversarial zones are defined using `dynamic rules`, demonstrating a deep integration of logic programming.
 
+### 2.1 The State-Space Environment
+The mathematical graph below illustrates the translation of the Bermuda Island topography into the logical nodes and weighted edges utilized by the pathfinding algorithm. 
+
+![Bermuda Tactical State-Space Map](bermuda_map.png)
+
 ## 3. System Architecture
 The project employs a decoupled architecture, separating the logical inference engine from the user interface to adhere to clean engineering practices.
 
 * **The Logic Engine (SWI-Prolog):** The `map_kb.pl` file acts as the AI's brain. It stores the map's topology and houses the recursive search algorithms. Crucially, it utilizes dynamic predicates (`:- dynamic red_zone/1`) which allow the environment state to be modified at runtime without hard-coding changes into the script.
 
-![Bermuda Tactical State-Space Map](bermuda_map.png)
 
 * **The Interface (Python 3):** The `tactical_route.py` script serves as the Command-Line Interface (CLI). It parses user arguments, uses the `pyswip` library to bridge the gap to the Prolog engine, injects temporary hazard constraints into the knowledge base, queries the search algorithm, and parses the logical output into a human-readable tactical summary.
 
