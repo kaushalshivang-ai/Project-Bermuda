@@ -18,6 +18,8 @@ The project employs a decoupled architecture, separating the logical inference e
 * **The Logic Engine (SWI-Prolog):** The `map_kb.pl` file acts as the AI's brain. It stores the map's topology and houses the recursive search algorithms. Crucially, it utilizes dynamic predicates (`:- dynamic red_zone/1`) which allow the environment state to be modified at runtime without hard-coding changes into the script.
 * **The Interface (Python 3):** The `tactical_route.py` script serves as the Command-Line Interface (CLI). It parses user arguments, uses the `pyswip` library to bridge the gap to the Prolog engine, injects temporary hazard constraints into the knowledge base, queries the search algorithm, and parses the logical output into a human-readable tactical summary.
 
+![Bermuda Tactical State-Space Map](bermuda_map.png)
+
 ## 4. Implementation Details
 The core of the pathfinding relies on a custom Prolog rule utilizing the `setof` predicate. 
 1. The user inputs a start and end location via the Python CLI.
