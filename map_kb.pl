@@ -17,10 +17,11 @@ connected('Observatory', 'Hangar', 250).
 connected('Hangar', 'Clock Tower', 200).
 connected('Hangar', 'Rim Nam Village', 300).
 connected('Rim Nam Village', 'Clock Tower', 350).
-connected('Rim Nam Village', 'Factory', 300).
+connected('Rim Nam Village', 'Factory', 200).
 
 % --- Central Sector ---
 connected('Katulistiwa', 'Bimasakti Strip', 150).
+connected('Katulistiwa', 'Hangar', 175).
 connected('Katulistiwa', 'Plantation', 200).
 connected('Plantation', 'Riverside', 200).
 connected('Bimasakti Strip', 'Peak', 250).
