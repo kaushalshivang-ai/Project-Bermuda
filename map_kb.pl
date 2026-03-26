@@ -5,39 +5,38 @@
 
 % --- Northern Sector ---
 connected('Shipyard', 'Bullseye', 150).
-connected('Shipyard', 'Mill', 400).
+connected('Shipyard', 'Mill', 300).
 connected('Shipyard', 'Plantation', 200).
 connected('Shipyard', 'Riverside', 250).
-connected('Bullseye', 'Graveyard', 150).
-connected('Graveyard', 'Observatory', 200).
+connected('Bullseye', 'Graveyard', 50).
+connected('Graveyard', 'Observatory', 150).
 connected('Graveyard', 'Katulistiwa', 200).
 
 
 % --- Western Sector ---
-connected('Observatory', 'Hangar', 250).
-connected('Hangar', 'Clock Tower', 200).
-connected('Hangar', 'Rim Nam Village', 300).
-connected('Rim Nam Village', 'Clock Tower', 350).
+connected('Observatory', 'Hangar', 200).
+connected('Hangar', 'Clock Tower', 150).
+connected('Hangar', 'Rim Nam Village', 250).
+connected('Rim Nam Village', 'Clock Tower', 300).
 connected('Rim Nam Village', 'Factory', 200).
 
 % --- Central Sector ---
 connected('Katulistiwa', 'Bimasakti Strip', 150).
 connected('Katulistiwa', 'Hangar', 175).
-connected('Katulistiwa', 'Plantation', 200).
-connected('Plantation', 'Riverside', 200).
+connected('Bimasakti Strip', 'Plantation', 200).
+connected('Plantation', 'Riverside', 100).
 connected('Bimasakti Strip', 'Peak', 250).
 connected('Bimasakti Strip', 'Clock Tower', 200).
-connected('Peak', 'Mill', 300).
+connected('Peak', 'Mill', 250).
 connected('Peak', 'Pochinok', 200).
 connected('Peak', 'Kota Tua', 250).
 connected('Peak', 'Riverside', 200).
-connected('Peak', 'Plantation', 250).
 connected('Clock Tower', 'Peak', 150).
 
 % --- Eastern Sector ---
 connected('Riverside', 'Mill', 150).
-connected('Mill', 'Keraton', 200).
-connected('Keraton', 'Cape Town', 250).
+connected('Mill', 'Keraton', 150).
+connected('Keraton', 'Cape Town', 100).
 connected('Cape Town', 'Kota Tua', 200).
 connected('Cape Town', 'Sentosa', 350).
 connected('Kota Tua', 'Sentosa', 300).
@@ -46,7 +45,7 @@ connected('Pochinok', 'Sentosa', 250).
 connected('Sentosa', 'Mars Electric', 250).
 
 % --- Southern Sector ---
-connected('Clock Tower', 'Factory', 200).
+connected('Clock Tower', 'Factory', 150).
 connected('Factory', 'Pochinok', 150).
 connected('Factory', 'Mars Electric', 250).
 connected('Pochinok', 'Mars Electric', 200).
