@@ -39,3 +39,7 @@ However, scaling this system to a massive, real-world mapping grid (like a city 
 
 ## 6. Conclusion
 The Tactical Map Pathfinder successfully bridges classical symbolic AI (Prolog) with modern scripting paradigms (Python). It fulfills all technical requirements of the BYOP component—including strict CLI executability—while demonstrating a firm practical grasp of knowledge representation, dynamic environments, and algorithmic search optimization.
+
+## 7. Author
+
+**Made by:** Shivang Kaushal  
