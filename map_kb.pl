@@ -17,7 +17,6 @@ connected('Observatory', 'Hangar', 250).
 connected('Hangar', 'Clock Tower', 200).
 connected('Hangar', 'Rim Nam Village', 300).
 connected('Rim Nam Village', 'Clock Tower', 350).
-connected('Rim Nam Village', 'Mars Electric', 250).
 
 % --- Central Sector ---
 connected('Katulistiwa', 'Bimasakti Strip', 150).
@@ -28,6 +27,8 @@ connected('Bimasakti Strip', 'Clock Tower', 200).
 connected('Peak', 'Mill', 300).
 connected('Peak', 'Pochinok', 200).
 connected('Peak', 'Kota Tua', 250).
+connected('Peak', 'Riverside', 200).
+connected('Peak', 'Plantation', 250).
 
 % --- Eastern Sector ---
 connected('Riverside', 'Mill', 150).
@@ -38,6 +39,7 @@ connected('Cape Town', 'Sentosa', 350).
 connected('Kota Tua', 'Sentosa', 300).
 connected('Kota Tua', 'Pochinok', 200).
 connected('Pochinok', 'Sentosa', 250).
+connected('Sentosa', 'Mars Electric', 250).
 
 % --- Southern Sector ---
 connected('Clock Tower', 'Factory', 200).
