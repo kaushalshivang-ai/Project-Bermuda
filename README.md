@@ -94,6 +94,8 @@ python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock T
 * `map_kb.pl` — Prolog inference engine and state-space definitions.
 * `requirements.txt` — Python dependencies (`pyswip`).
 * `.gitignore` — Engineering standard to exclude execution caches.
+* `project_report.md` — Detailed system architecture, algorithmic analysis, and project documentation.
+* `bermuda_map.png` — Visual nodal graph of the tactical state-space environment.
 
 ---
 
